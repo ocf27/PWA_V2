@@ -1,0 +1,25 @@
+{
+  "name": "PWA Hora del sistema",
+  "short_name": "PWAHS",
+  "description": "PWA que muestra correctamente la hora actual del sistema, la hora debe actualizarse automáticamente cada segundo sin necesidad de intervención del usuario.",
+  "theme_color": "#f9f9f9",
+  "background_color": "#f9f9f9",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "./images/logo.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/favicon.ico",
+      "type": "image/ico",
+      "sizes": "256x256",
+      "purpose": "any"
+    }
+  ]
+}
